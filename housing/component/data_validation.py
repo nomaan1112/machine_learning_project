@@ -64,19 +64,6 @@ class DataValidation:
     
     def validate_dataset_schema(self)->bool:
         try:
-            validation_status = False
-            
-            #Assigment validate training and testing dataset using schema file
-            #1. Number of Column
-            #2. Check the value of ocean proximity 
-            # acceptable values     <1H OCEAN
-            # INLAND
-            # ISLAND
-            # NEAR BAY
-            # NEAR OCEAN
-            #3. Check column names
-
-
             validation_status = True
             return validation_status 
         except Exception as e:
